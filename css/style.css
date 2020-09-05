@@ -1,0 +1,665 @@
+/*google fonts are here*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+  
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Quicksand', sans-serif;
+}
+p,span,input,i,li,a,button{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+ 
+
+
+
+*{	margin: 0;
+	padding: 0;
+}
+
+
+/*first page css here*/
+/*haeder part start here*/
+.header{
+	
+	background: white;
+	padding: 18px 20px;
+
+}
+
+
+.header img{
+	vertical-align: middle;
+}
+.header span{
+	vertical-align: middle;
+	font-size: 25px;
+	font-weight: 700;
+}
+/*header ends here*/
+.banner{
+	width: 100%;
+	display: flow-root;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.row{
+	width: 100%;
+	float: left;
+	margin: 0 15px;
+}
+.col-1{
+	width: 50%;
+	float: left;
+}
+.banner-left{
+	
+	padding: 30px;
+
+
+
+}
+.banner .left h1{
+	font-size: 44px;
+	margin-bottom: 16px;
+}
+.banner .left p{
+	font-size: 19px;
+	color: #4c527d;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.banner button{
+	padding: 18px 37px;
+	border-radius: 35px;
+	outline: none;
+	border: 2px solid#ed6524;
+	cursor: pointer;
+
+}
+.banner .left-button{
+background: #ed6524;
+color: white;
+font-size: 18px;
+font-weight: 600;
+}
+.banner .right-button{
+	background: white;
+color: #ed6524;
+font-size: 18px;
+margin: 0 10px;
+font-weight: 600;
+transition: .5s;
+}
+.banner .right-button:hover{
+	background: #ed6524; 
+	transition: 1s;
+	color: white;
+}
+.message{
+	background: #f6f8fc;   
+    margin-top: 40px!important;
+    text-align: left;
+    border-left:4px solid#f5a782;
+   
+    text-align: left;
+    position:relative;
+}
+.message p{
+	font-size: 17px!important;
+	font-weight: 400;
+	color:#6f7fa7!important;
+	font-style: italic;
+	padding: 30px! important;
+	line-height: 20px!important;
+}
+.arrow-box{
+	    position: absolute;
+    height: 25px;
+    width: 25px;
+    background: #f6f8fc;
+    transform: rotate(45deg);
+    left: 3%;
+    bottom: -10px;
+
+}
+.user{
+	width: 100%;
+	
+	height: 70px;
+}
+.row-1{
+	width: 100%!important;
+	float: left!important;
+	
+	
+}
+.col-2{
+	width: 15%;
+	float: left;
+}
+.col-3{
+	width: 85%;
+	float: right;
+}
+.user img{
+	width: 75px;
+}
+.user-info{
+	margin: 15px 10px!important;
+
+}
+.user-info p{
+	margin: 0!important;
+	padding: 0!important;
+	font-size: 15px!important;
+	line-height: 22px!important;
+	font-weight: 400!important;
+	color: #6f7fa7!important;
+}
+.banner-right{
+	
+	padding: 30px;
+}
+.see-all{
+	text-align: center;
+}
+.see-all a{
+	color: black;
+	font-size: 18px;
+}
+.see-all a:hover{
+	color: #ed6524;
+	transition: .3s;
+}
+.image{
+	position: relative;
+}
+.new{
+	background: #5cb377;
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	height: 120px;
+	width: 120px;
+	font-size: 16px;
+	right: 20px;
+	top: -60px;
+	margin-right: -40px;
+
+}
+.new h3{
+	padding-top: 30px;
+}
+/*1st page css ends here*/
+
+/*2nd page css here*/
+.service{
+	
+	display: flow-root;
+	height: auto;
+	background-image: linear-gradient(to bottom,#f6f8fc 0%, #fff 70%);
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.service-title{
+	text-align: center;
+	margin: 75px 0;
+}
+.service-title h1{
+	font-size: 40px;
+	margin: 20px 0;
+	font-weight: 800;
+}
+.service-title p{
+	font-size: 20px;
+	line-height: 28px;
+	color: #4c527d; 
+}
+.service-body{
+	width: 100%;
+	float: left;
+
+}
+.col{
+	width: 33.33%;
+	float: left;
+	
+}
+.item{
+	text-align: center;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+.item-1 h3{
+	margin-bottom: 20px;
+}
+.item-1 p{
+	color: #4c527d;
+}
+.item-2{
+	margin-left: 15px;
+}
+.item-2 h3{
+	margin-bottom: 20px;
+	margin: 10px;
+}
+.item-2 p{
+	color: #4c527d;
+	    margin-top: 22px;
+}
+.item-3 h3{
+	margin-bottom: 20px;
+}
+.item-3 p{
+	color: #4c527d;
+}
+.col-5{
+	width: 33.33%;
+	float: right;
+}
+.item-2nd{
+text-align: center;
+	padding: 25px;
+	margin-bottom: 20px;
+}
+/*2nd page css end here*/
+/*3rd page css here*/
+.item{
+	;
+	display: flow-root;
+	height: auto;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.item-title{
+	margin-top: 50px;
+}
+.item-title h1{
+	font-size: 38px;
+	font-weight: 600;
+}
+.item-box{
+	width: 100%;
+	float: left;
+}
+.col-2-a{
+	width: 50%;
+	float: left;
+	margin: 40px 0;
+}
+.item-image{
+	padding: 50px;
+	text-align: right;
+}
+.col-2-b{
+		width: 50%;
+	float: left;
+	margin: 80px 0;
+}
+.item-text{
+	
+	text-align: left;
+	    margin-right: 40%;
+}
+.item-text ul li{
+	list-style: none;
+	color: #4c527d;
+	margin-bottom: 28px;	
+	text-align: center;
+	font-size: 18px;
+
+
+}
+.item-text ul li i{
+	color: #7FCDB8;
+	text-align:center; 
+
+}
+.item-text button{
+	padding: 18px 30px;
+	border-radius: 35px;
+	outline: none;
+	border: 2px solid#ed6524;
+	cursor: pointer;
+	background: #ed6524;
+color: white;
+font-size: 18px;
+font-weight: 500;
+}
+/*3rd page css ends here*/
+/*4th page css here*/
+.home{
+display: flow-root;
+	height: auto;
+	width: 100%;
+		
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.home-title{
+	margin: 50px 0;
+}
+.home-title h1{
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+}
+.home-title p{
+	line-height: 24px;
+	color: #4c527d;
+	font-size: 20px;
+}
+.home-text{
+	text-align:left;
+}
+.home-des{
+	margin: 20px;
+	margin-left: 320px;
+	}
+.home-des ul li {
+	font-size: 18px;
+	font-weight: 600px;	
+		list-style: none;
+		font-weight: 500;
+		
+		margin-top: 20px;
+	
+}
+.home-des ul li i{
+	color: #7FCDB8;
+	margin-right: 10px;
+	
+}
+.home-des p{
+	margin-top: 10px;
+	color:#4c527d;
+	margin-left: 40px;
+	line-height: 25px;
+}
+/*4th page css end here*/
+
+/*5th page css here*/
+.form{
+	display: flow-root;
+	height: auto;
+	
+	margin: 50px 0;
+	text-align: center;
+	
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.form-title{
+	background: #f6f8fc;
+	padding: 50px 90px;
+	width: 50%;
+	text-align: center;
+	margin-left: 16%;
+}
+.form-title h1{
+	font-size: 35px;
+	margin-bottom: 10px;
+}
+.form-title p{
+	color: #4c527d;
+	    line-height: 22px;
+    margin-bottom: 20px;
+}
+.email-input{
+	width: 65%;
+	padding: 16px;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+}
+.button-1{
+padding: 16px;
+width: 15%;
+font-weight: 500;
+font-size: 15px;
+background-color: #ed6524!important;
+color: white;
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 3px;
+margin-left: 5px;
+}
+/*5th page css end here*/
+
+/*6th page css here*/
+.book-review{
+	display: flow-root;
+	height: auto;
+	
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.review-title{
+
+    margin-top: 20px;
+}
+.review-title h1{
+	font-size: 37px;
+	margin-bottom: 10px;
+}
+.review-title p{
+color: #4c527d;
+font-size: 20px;
+}
+
+
+	
+
+.row-10{
+	
+    width: 25%;
+    float: left;
+    background-color: #f6f8fc;
+    position: relative;
+    padding: 30px 20px;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+.row-40{
+  margin-top: -70px;
+    margin-left: 100px;
+
+}
+.col-image img{
+	    width: 15%;
+    padding-top: 10px;
+}
+.p2 p{
+	font-size: 16px;
+    color: #4c527d;
+    line-height: 25px;
+}
+.p3 p{
+	color: #4c627d;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: -40px;
+
+}
+.testimonial-me i{
+border-radius: 100px;
+    background: #f5a782;
+   position: absolute;
+    width: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    left: 45%;
+    top: -20px;
+}
+.row-20{
+width: 25%;
+    float: left;
+    background-color: #f6f8fc;
+    position: relative;
+    padding: 30px 20px;
+    text-align: left;
+    
+    margin: 30px 200px;
+	 
+}
+.row-21{
+	margin:30px -170px;
+    background-color: #f6f8fc;
+    width: 25%;
+    float: left;
+    background-color: #f6f8fc;
+    position: relative;
+    padding: 30px 20px;
+    text-align: left;
+	 
+    
+
+}
+/*6th page css end here*/
+
+
+/*7th page css here*/
+.mid-button{
+	display: flow-root;
+	height: auto;
+	
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.button button{
+	padding: 15px 20px;
+	border-radius: 33px;
+	outline: none;
+	border: 2px solid#ed6524;
+	cursor: pointer;
+	background: #ed6524;
+color: white;
+font-size: 15px;
+font-weight: 500;
+margin-right: 50px;
+}
+/*7th page css end here*/
+/*8th page css here*/
+.writer{
+	background:#ed6524;
+	background-size: cover;
+	height: auto;
+	display: flow-root;
+	
+	margin-top: 70px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.writer-image{
+	margin-top: 50px;
+}
+.writer-info{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+.writer-info h1{
+	color:white;
+	font-size:40px;
+	margin-bottom: 20px;
+}
+.writer-info p{
+	color: white;
+	text-align: left;
+	margin-left: 200px;
+
+}
+.writer-info a{
+	color: white;
+	text-align: left;
+	margin-right: 52.5%;
+	font-weight: 500;
+}
+.writer-info h2{
+	color:white;
+	font-size:30px;
+	margin-bottom: 20px;
+}
+.icons{
+	text-align: center;
+    margin: 20px;
+	}
+.icons ul li  {
+display: inline-block;
+}
+.icons ul li a i{
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	height: 40px;
+	width: 40px;
+	background: rgba(0,0,0,0.1);
+	border-radius: 100px;
+	cursor: pointer;
+}
+/*8th page css end here*/
+/*last part css here*/
+.thank-you{
+	
+	display: flow-root;
+	height: 0 auto;
+}
+.container{
+	width: 1140px;
+}
+.thank-you-design{
+	text-align: center;
+	
+}
+.thank-you-design span{
+	font-size: 12px;
+	    color: #4c527d;
+}
+.thank-you-design  li{
+	
+	list-style: none;
+	display: inline-block;
+
+}
+.thank-you-design li i{
+	color:#ed6524 ;}
+
+.thank-you-design li i{
+	color:#ed6524 ;
+}
+.thank-you-design a{
+	color: black;
+}
+.thank-you-design a:hover{
+	
+	color: #ed6524;
+}
+/**/
